@@ -8,10 +8,15 @@ The project showcases the complete BI workflow—from raw data → cleaned model
 The goal of this project is to provide a detailed analysis of sales performance, profitability, regional distribution, and customer behavior across US stores.
 
 The dashboard answers key business questions such as:
+
 Which store types generate the highest sales?
+
 Which regions and sales channels are most profitable?
+
 What is the average delivery performance?
+
 Which products generate maximum discounts and profit?
+
 What factors influence total profit?
 
 ## Tech Stack
