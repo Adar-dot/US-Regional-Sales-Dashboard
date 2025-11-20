@@ -104,7 +104,7 @@ The report consists of multiple pages with rich visuals.
 
 Page 1 – Sales Analysis Dashboard
 
-###Includes:
+### Includes:
 
 #### KPIs
 Total Sale — $61.25M
@@ -153,8 +153,13 @@ Profit increases when County = Los Angeles County
 ## Insights Delivered
 
 City stores contribute the largest portion of sales.
+
 Online channel has strong performance after in-store.
+
 West & South regions drive majority of profit.
+
 Products like TVs, Phones, and Audio have highest discounts.
+
 Delivery performance averages around 21 days.
+
 Profit is heavily influenced by store location and region.
