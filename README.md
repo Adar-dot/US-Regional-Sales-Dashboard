@@ -22,9 +22,13 @@ What factors influence total profit?
 ## Tech Stack
 
 Power BI Desktop
+
 Power Query
+
 DAX (Data Analysis Expressions)
+
 Data Modeling (Snowflake Schema)
+
 Power BI AI Visuals (Key Influencers, Decomposition Tree)
 
 ## Data Preparation (Power Query)
@@ -35,13 +39,21 @@ All datasets were cleaned and transformed in Power Query Editor.
 ### Applied Transformations
 
 Promoted Headers
+
 Changed Data Types
+
 Filtered Rows (multiple stages)
+
 Removed Errors
+
 Replaced Values
+
 Renamed Columns
+
 Locale-based type conversion
+
 Null value handling
+
 Cleaned inconsistencies in Store Locations, Sales Orders, etc.
 
 These transformations ensure the data is clean, consistent, and ready for modeling.
@@ -55,15 +67,21 @@ Sales Orders (center of the model)
 
 ### Dimension Tables
 Products
+
 Customers
+
 Store Locations
+
 Regions
+
 Sales Team
 
 ## Relationships include:
 
 One-to-many between dimensions and fact tables
+
 Star/Snowflake hybrid for optimized reporting
+
 Proper relationship cardinality and cross-filter directions
 
 ## Calculated Columns (DAX)
@@ -112,18 +130,27 @@ Page 1 – Sales Analysis Dashboard
 ### Includes:
 
 #### KPIs
+
 Total Sale — $61.25M
+
 Total Profit — $22.86M
+
 Total Quantity Sold — 27K
+
 Avg Delivery Days — 21 Days
 
 #### Bar Charts
+
 Total Sales by Store Type
+
 Discount by Top Products
+
 Profit by Region
 
 #### Pie/Donut Charts
+
 Count of Orders by Sales Team
+
 Count of Orders by Sales Channel
 
 #### Map Visualization
@@ -132,10 +159,10 @@ Total Profit by Country (Geographical Distribution)
 #### Gauge KPI
 Average Order Quantity
 
-Page 2 – Advanced Analytics
+### Page 2 – Advanced Analytics
 #### Decomposition Tree
 
-#### Breakdown of Profit by:
+##### Breakdown of Profit by:
 Sales Channel
 Region
 
@@ -151,8 +178,11 @@ Profit increases when County = Los Angeles County
 ## Repository Structure
  PowerBI-US-Store-Sales
  ┣  Dataset
+ 
  ┣  PBIX File
+ 
  ┣  README.md
+ 
  ┗ Screenshots of Dashboard
 
 ## Insights Delivered
